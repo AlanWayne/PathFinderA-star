@@ -5,6 +5,7 @@ class Cell:
     price = 0
     dist = 0
     value = 0
+    previous = None
     
     # states: field, wall, start, end
     state = ''
